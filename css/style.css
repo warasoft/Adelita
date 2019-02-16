@@ -7,12 +7,6 @@
   z-index: 30;
 }
 
-.menu img{
-  width: 150px;
-  display: none;
-}
-
-
 .menu.navbar_fixed {
   position: fixed;
   width: 100%;
@@ -30,6 +24,11 @@
   transition: transform 500ms ease, background 500ms ease, -webkit-transform 500ms ease;
   -webkit-transition: transform 500ms ease, background 500ms ease;
   z-index: 999999;
+}
+
+.menu img{
+  width: 100px;
+  display: none;
 }
 
 .menu.navbar_fixed img{
