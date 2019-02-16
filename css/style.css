@@ -3,12 +3,12 @@
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 200%;
+  width: 100%;
   z-index: 30;
 }
 
 .menu img{
-  width:150px;
+  width: 150px;
   display: none;
 }
 
@@ -51,7 +51,7 @@
     background-color: transparent;
     position: relative;
     display: table;*/
-  padding-top: 180px;
+  padding-top: 200px;
   background: url("../img/8.jpg") fixed no-repeat 50% 50%;
   background-size: cover;
   background-position: center;
