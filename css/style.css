@@ -28,11 +28,10 @@
 }
 
 .menu img{
-  width: 200px;
+  width: 100px;
   display: none;
 }
 .menu.navbar_fixed img{
-  width: 100px;
   display: initial;
 }
 
@@ -51,13 +50,14 @@
     position: relative;
     display: table;*/
   padding-top: 200px;
+   width: 100%;
+  height: 100%;
+  min-height: 768px;
+  background-color: transparent;
+  position: relative;
+  display: table;
   background: url("../img/8.jpg") fixed no-repeat 50% 50%;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100vh;
-  overflow: hidden;
-  min-height: 400px;
 }
 @media screen and (max-width: 768px) {
   .home img {
